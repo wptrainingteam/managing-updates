@@ -6,32 +6,180 @@ In this lesson you will learn about why updates are important and how to manage 
 
 ## Objectives
 
-After completing this lesson, you will be able to:
+After completing this lesson, participants will be able to:
 
 *   Identify any updates that are available for your sites' themes, plugins, and core files.
 *   Install available WordPress core, theme, and plugin updates.
 
+## Target Audience
+
+Who is this lesson intended for? What interests/skills would they bring? Choose all that apply.
+
+* [ ] Users
+* [ ] Designers
+* [ ] Developers
+* [ ] Speakers
+* [ ] All
+
+## Experience Level
+
+How much experience would a participant need to get the most from this lesson?
+
+* [ ] Beginner
+* [ ] Intermediate
+* [ ] Advanced
+* [ ] Any
+
+## Type of Instruction
+
+Which strategies will be used for this lesson plan? Choose all that apply.
+
+* [ ] Demonstration
+* [ ] Discussion
+* [ ] Exercises
+* [ ] Feedback
+* [ ] Lecture (Presentation)
+* [ ] Show & Tell
+* [ ] Tutorial
+
+## Time Estimate (Duration)
+
+How long will it take to teach this lesson (in minutes)?
+
+____ minutes
+
 ## Prerequisite Skills
 
-You will be better equipped to work through this lesson if you have experience in and familiarity with:
+Participants will get the most from this lesson if they have familiarity with:
 
 *   Basic knowledge of [installing and activating WordPress themes](https://make.wordpress.org/training/handbook/user-lessons/choosing-and-installing-a-theme/) and [plugins](https://make.wordpress.org/training/handbook/user-lessons/choosing-and-installing-plugins/)
 *   Knowledge of how to back up [a WordPress database and files](https://make.wordpress.org/training/handbook/user-lessons/backing-up-your-wordpress-site/)
 
-## Assets
-
-*   A local install running [WordPress version 4.3](https://wordpress.org/download/release-archive/)
-
-## Screening Questions
+## Readiness Questions
 
 *   Are you familiar with installing and activating themes and plugins via the WordPress dashboard?
 
-## Teacher Notes
+## Materials Needed
+
+*   A local install running [WordPress version 4.3](https://wordpress.org/download/release-archive/)
+*   [Slides](https://rawgit.com/wptrainingteam/repo-name/dev/slides/index.html) (included in this repo)
+
+## Notes for the Instructor
 
 *   It is ideal to pair this lesson with the Backing up Your WordPress Site lesson plan so that students learn how to back up their WordPress site before running updates.
 *   This lesson uses WordPress version 4.3 on a local installation for demonstration purposes. Older versions of WordPress should never be used on production websites.
 
-## Hands-on Walkthrough
+## Have You Thought About...?
+
+* Challenge 1
+* Challenge 2
+
+> What could present challenges to delivering this lesson? Is there anything that can be done in advance to prepare for those challenges?
+>
+> _For example:_
+>
+> *  What if there’s no internet available?
+> *  What if there’s no projector available?
+> *  What if a participant doesn’t has a WordPress site to work with?
+> *  What if there aren’t enough computers for everyone?
+> *  What if no one has the prerequisite skills? What if there are different opinions about the topic?
+
+## Lesson Overview
+
+* First do this
+* Then move on to this
+* Finish with this
+
+> The plan for the lesson. Outline form works well.
+>
+> _For example:_
+>
+> * Talk about what a theme is
+> * Demonstrate how to install and activate a theme
+> * Practice exercises to have participants find and install a theme on their own site
+
+## Exercises
+
+*   Using a local install of WordPress that is based off of a non-current version of WordPress, have students update the plugin, theme, and core files for their installation.
+
+## Assessment
+
+**Which of these components do NOT require updates:**
+
+1.  Core
+2.  Themes
+3.  Plugins
+4.  Media
+
+**Answer:** 4\. Media
+
+**_______ include new WordPress features**
+
+1.  Major releases
+2.  Minor releases
+
+**Answer:** 1\. Major releases
+
+**______ include maintenance releases, security fixes, and updates to translation files**
+
+1.  Major releases
+2.  Minor releases
+
+**Answer:** 1\. Minor releases
+
+**By default, every site has automatic updates enabled for minor core releases and translation files.**
+
+1.  True
+2.  False
+
+**Answer:** 1\. True
+
+**Where can you look to determine if WordPress core has updates available?**
+
+1.  At the top of the administration dashboard
+2.  Dashboard > Updates
+
+**Answer:** 1\. At the top of the administration dashboard and 2\. Dashboard > Updates
+
+**Where can you look to see what updating a plugin should fix?**
+
+1.  changelog
+2.  themes
+3.  reviews
+4.  help
+
+**Answer:** 1\. changelog
+
+**Automatic plugin background updates only happen by default for plugins and themes in special cases**
+
+1.  True
+2.  False
+
+**Answer:** 1\. True
+
+**When you run a theme update, you are actually overwriting the theme files.**
+
+1.  True
+2.  False
+
+**Answer:** 1\. True
+
+**Before you run any updates, it’s a good idea to back up your website.**
+
+1.  True
+2.  False
+
+**Answer:** 1\. True
+
+## Additional Resources
+
+*  [Updating WordPress](https://codex.wordpress.org/Updating_WordPress) @ Codex
+*  [Easy Theme and Plugin Upgrades](https://wordpress.org/plugins/easy-theme-and-plugin-upgrades/)
+*  [Configuring Automatic Background Updates](https://codex.wordpress.org/Configuring_Automatic_Background_Updates)  @ Codex
+*  [Upgrading WordPress - Extended Instructions](https://codex.wordpress.org/Upgrading_WordPress_-_Extended_Instructions) @ Codex
+*  [Dashboard Updates Screen](https://codex.wordpress.org/Dashboard_Updates_Screen) @ Codex
+
+## Example Lesson
 
 ### What Updates Are and Why We Need Them
 
@@ -68,67 +216,6 @@ Before you run any updates, it is a good idea to back up your website because so
 
 There are two methods for updating - the easiest is the one-click update, which will work for most people. If the one-click update doesn't work or if you just prefer to be more hands-on you can follow the manual update process that is [documented in the Codex](https://codex.wordpress.org/Updating_WordPress#Manual_Update). Modern versions of WordPress (version 2.7 and up) let you update with the click of a button. For WordPress core, you can run an update by clicking the link in the new version banner (if it's there) or by clicking the "Update Now" button in the WordPress core section of the "Updates" screen. You shouldn't need to do anything else other than let the updates run. Once it's finished, your WordPress software will be up-to-date. For both plugins and themes, you will need to select the check-boxes for each plugin or theme you would like to update and then click the "Update Plugins" or "Update Themes" button to run the updates. One-click updates work on most servers. If you run into any issues with one-click updates they are probably related to server level permissions issues.
 
-## Exercises
+### Lesson Wrap Up
 
-*   Using a local install of WordPress that is based off of a non-current version of WordPress, have students update the plugin, theme, and core files for their installation.
-
-## Quiz
-
-**Which of these components do NOT require updates:**
-
-1.  Core
-2.  Themes
-3.  Plugins
-4.  Media
-
-**Answer:** 4\. Media **_______ include new WordPress features**
-
-1.  Major releases
-2.  Minor releases
-
-**Answer:** 1\. Major releases **______ include maintenance releases, security fixes, and updates to translation files**
-
-1.  Major releases
-2.  Minor releases
-
-**Answer:** 1\. Minor releases **By default, every site has automatic updates enabled for minor core releases and translation files.**
-
-1.  True
-2.  False
-
-**Answer:** 1\. True **Where can you look to determine if WordPress core has updates available?**
-
-1.  At the top of the administration dashboard
-2.  Dashboard > Updates
-
-**Answer:** 1\. At the top of the administration dashboard and 2\. Dashboard > Updates **Where can you look to see what updating a plugin should fix?**
-
-1.  changelog
-2.  themes
-3.  reviews
-4.  help
-
-**Answer:** 1\. changelog **Automatic plugin background updates only happen by default for plugins and themes in special cases**
-
-1.  True
-2.  False
-
-**Answer:** 1\. True **When you run a theme update, you are actually overwriting the theme files.**
-
-1.  True
-2.  False
-
-**Answer:** 1\. True **Before you run any updates, it’s a good idea to back up your website.**
-
-1.  True
-2.  False
-
-**Answer:** 1\. True
-
-## Additional Resources
-
-1.  [Updating WordPress](https://codex.wordpress.org/Updating_WordPress) @ Codex
-2.  [Easy Theme and Plugin Upgrades](https://wordpress.org/plugins/easy-theme-and-plugin-upgrades/)
-3.  [Configuring Automatic Background Updates](https://codex.wordpress.org/Configuring_Automatic_Background_Updates)  @ Codex
-4.  [Upgrading WordPress - Extended Instructions](https://codex.wordpress.org/Upgrading_WordPress_-_Extended_Instructions) @ Codex
-5.  [Dashboard Updates Screen](https://codex.wordpress.org/Dashboard_Updates_Screen) @ Codex
+![](https://raw.githubusercontent.com/wptrainingteam/contributor-resources/master/images/lightbulb.png) Follow with the Exercises and Assessment outlined above.
